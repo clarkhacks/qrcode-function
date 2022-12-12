@@ -13,7 +13,7 @@ const getHexColor = (color: any) => {
 export default async function (req: VercelRequest, res: VercelResponse) {
   const {
     query: {
-      text = 'Where is my mind?',
+      text = 'https://blog.clark.today',
       size = '500',
       margin = '1',
       type = 'image',
